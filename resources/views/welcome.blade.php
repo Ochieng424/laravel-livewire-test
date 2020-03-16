@@ -8,12 +8,14 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet">
         @livewireStyles
     </head>
     <body>
-        <div class="flex-center position-ref full-height">
-            hello
+        <div class="container mt-5">
+            @livewire('hello-world')
         </div>
         @livewireScripts
     </body>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </html>
